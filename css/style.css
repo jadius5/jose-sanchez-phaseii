@@ -1,4 +1,19 @@
-h1 {
-color: blue;
+/*.jumbotron {
+    color: #fff;
+    background-image: url("https://c2.staticflickr.com/6/5211/5426098481_503b16b14b_b.jpg");
+    background-size: cover;
+} */
 
+body {
+    background-color: #024;
+}
+
+.jumbotron {
+    color: #fff;
+    background-image: url("../img/star-night-sky.jpg");
+    background-size: cover;
+}
+
+.col-sm-3 {
+    color: #fff;
 }
