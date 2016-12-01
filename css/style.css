@@ -17,3 +17,79 @@ body {
 .col-sm-3 {
     color: #fff;
 }
+
+#myMove {
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight:bold;
+    font-size:20px;
+    padding:10px;
+    animation: mymove 4s ease-in-out 2s infinite alternate;
+        -webkit-animation: mymove 4s ease-in-out 2s infinite alternate; /* Safari 4.0 - 8.0 */
+        -moz-animation: mymove 4s ease-in-out 2s infinite alternate;
+        -o-animation: mymove 4s ease-in-out 2s infinite alternate;;
+    border-radius:5px;
+        -webkit-border-radius:5px;
+}
+
+@keyframes mymove {
+0% {
+    transform: rotate(0deg);
+    left:0px;
+    
+}
+25% {
+    transform: rotate(20deg);
+    left:0px;
+    
+}
+50% {
+    transform: rotate(0deg);
+    left:360px;
+    
+}
+55% {
+    transform: rotate(0deg);
+    left:360px;
+    
+}
+70% {
+    transform: rotate(0deg);
+    left:360px;
+    background:#1ec7e6;
+    
+}
+100% {
+    transform: rotate(-360deg);
+    left:0px;
+    
+}
+}
+
+@-webkit-keyframes animated_div {
+0% {-webkit-transform: rotate(0deg);left:0px;}
+25% {-webkit-transform: rotate(20deg);left:0px;}
+50% {-webkit-transform: rotate(0deg);left:360px;}
+55% {-webkit-transform: rotate(0deg);left:360px;}
+70% {-webkit-transform: rotate(0deg);left:360px;background:#1ec7e6;}
+100% {-webkit-transform: rotate(-360deg);left:0px;}
+}
+
+@-moz-keyframes animated_div {
+0%  {-moz-transform: rotate(0deg);left:0px;}
+25% {-moz-transform: rotate(20deg);left:0px;}
+50%  {-moz-transform: rotate(0deg);left:360px;}
+55%  {-moz-transform: rotate(0deg);left:360px;}
+70%  {-moz-transform: rotate(0deg);left:360px;background:#1ec7e6;}
+100% {-moz-transform: rotate(-360deg);left:0px;}
+}
+
+@-o-keyframes animated_div {
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50%  {transform: rotate(0deg);left:360px;}
+55%  {transform: rotate(0deg);left:360px;}
+70%  {transform: rotate(0deg);left:360px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
