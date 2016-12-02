@@ -25,10 +25,10 @@ body {
     font-weight:bold;
     font-size:20px;
     padding:10px;
-    animation: mymove 4s ease-in-out 2s infinite alternate;
-        -webkit-animation: mymove 4s ease-in-out 2s infinite alternate; /* Safari 4.0 - 8.0 */
-        -moz-animation: mymove 4s ease-in-out 2s infinite alternate;
-        -o-animation: mymove 4s ease-in-out 2s infinite alternate;;
+    animation: mymove 4s ease-in-out 2s 3 alternate;
+        -webkit-animation: mymove 4s ease-in-out 2s 3 alternate; /* Safari 4.0 - 8.0 */
+        -moz-animation: mymove 4s ease-in-out 2s 3 alternate;
+        -o-animation: mymove 4s ease-in-out 2s 3 alternate;;
     border-radius:5px;
         -webkit-border-radius:5px;
 }
